@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Source+Sans+Pro:wght@300;400&display=swap");
+
+:root {
+ 
+  --PRIMARY-COLOR: #0574df;
+  --TYPOGRAPHY: #000002;
+  --TYPOGRAPHY-HEADING: #4984a8;
+  --TYPOGRAPHY-SECONDARY: #3172a3;
+  --TYPOGRAPHY-LIGHT:#948383;
+  --TYPOGRAPGHY-DESCRIPTION: #b2b1b4;
+  --ACCENT-COLOR: #dbf5fb;
+  --CARD-COLOR: grey;
+  --BUTTON-COLOR: #0574df;
+  --WHITE-COLOR: #ffffff;
+  --PAGINATION-BTN:#ffe400;
+
+  --FONT-FAMILY-1: "Source Sans Pro", sans-serif;
+  --FONT-FAMILY-2: "PlayfairDisplay", serif;
+  --SHADOW-1: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: VAR(--FONT-FAMILY-1);
+}
+
+a {
+  text-decoration: none;
+  color: var(--TYPOGRAPHY);
+}
+
+section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  
+}
