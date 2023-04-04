@@ -1,4 +1,4 @@
-import "./NewsItem.css";
+import "./newsItem.css";
 
 const NewsItemAlt = ({ ifExists, mockImg, title, description }) => {
   return (
