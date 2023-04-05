@@ -19,7 +19,7 @@ const News = () => {
 
   const apiKey = import.meta.env.VITE_API_KEY;
 
-  const url = `/api/top-headlines?country=in&category=general`;
+  const url = `https://newsapi.org/v2/top-headlines?country=in&category=general`;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,6 +30,7 @@ const News = () => {
           },
         });
         const data = await response.json();
+      
         setNewsData(data.articles);
         setIsLoading(false);
       } catch (error) {
